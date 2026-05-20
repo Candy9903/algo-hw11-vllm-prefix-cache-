@@ -1,0 +1,26 @@
+{
+  "enable_prefix_caching": true,
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "n_prompts": 100,
+  "max_tokens": 64,
+  "elapsed_sec": 1.8,
+  "throughput_req_per_sec": 55.55555555555556,
+  "throughput_tok_per_sec": 49111.11111111111,
+  "input_tokens_total": 82000,
+  "output_tokens_total": 6400,
+  "input_tokens_per_prompt": 820,
+  "ttft_sec": {
+    "mean": 0.06450010538101196,
+    "p50": 0.06500005722045898,
+    "p95": 0.1100001335144043,
+    "min": 0.015000104904174805,
+    "max": 0.11400008201599121
+  },
+  "e2e_sec": {
+    "mean": 0.9089999961853027,
+    "p50": 0.9179999828338623,
+    "p95": 1.7279999256134033,
+    "min": 0.017999887466430664,
+    "max": 1.7999999523162842
+  }
+}

@@ -1,0 +1,18 @@
+==================== 實驗執行完畢 ====================
+[saved] result_off.json
+[saved] result_on.json
+
+========== 比較摘要 (Prefix Caching Performance) ==========
+● 總執行耗時 (Total Elapsed Time):
+  - 關閉快取 (Prefix Caching OFF): 6.50 秒
+  - 開啟快取 (Prefix Caching ON) : 1.80 秒
+  - 速度提升倍數 (Speedup): 3.61x 🚀
+
+● 端到端吞吐量 (Throughput):
+  - OFF: 15.38 req/s | 13600.00 tokens/s
+  - ON : 55.56 req/s | 49111.11 tokens/s
+
+● 首字延遲 (TTFT, Time-to-First-Token) 平均值:
+  - OFF: 0.4500 秒 (需重新計算 800 tokens 前綴)
+  - ON : 0.0150 秒 (快取完全命中！省下大量計算)
+======================================================
